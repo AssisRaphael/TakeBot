@@ -14,3 +14,6 @@ Esta API foi criada através do Node e utiliza o framework Express. Utilizei o m
 
 ![Imagem bot](takeBot.png)
 ![Imagem 2 bot](TakeBot2.png)
+
+## JSON do Bot
+**TakeBotRaphael.json** (Arquivo quae contém as configurações do Bot para recriá-lo no Blip)
