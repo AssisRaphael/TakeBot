@@ -4,7 +4,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const routes = require('./routes/rotas')
 
-porta = 21262;
+porta = process.env.PORT || 21262;
 
 const app = express()
 
