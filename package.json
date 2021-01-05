@@ -1,0 +1,36 @@
+{
+  "name": "takebot",
+  "version": "1.0.0",
+  "description": "API criada para o processo seletivo de estágio da Take. Esta API coleta dados do github da Take e os envia para um chatbot do Blip.",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssisRaphael/TakeBot.git"
+  },
+  "keywords": [
+    "API",
+    "Take",
+    "Chatbot",
+    "Blip"
+  ],
+  "author": "Raphael Assis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AssisRaphael/TakeBot/issues"
+  },
+  "homepage": "https://github.com/AssisRaphael/TakeBot#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
